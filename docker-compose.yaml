@@ -13,7 +13,7 @@ services:
       - mongodb
 
   redis:
-    image: redis:v1
+    image: redis
 
   cart:
     image: cart:v1
